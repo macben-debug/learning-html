@@ -1,5 +1,8 @@
 
 <style>
+    button{
+        vertical-align: top;
+    }
     a{
         margin: 5px;
     }
@@ -41,6 +44,24 @@
      margin-top:3px;
      margin-left: 3px;
     }
+    .one,.two,.three{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        background-color: green;
+        color: white;
+        border: none;
+        transition: padding-left 0.5s,
+        padding-right 0.5s,
+        padding-top 0.5s,
+        padding-bottom 0.5s;
+    }
+    .one:hover,.two:hover,.three:hover{
+        padding-left: 15px;
+        padding-right: 15px;
+      
+    }
 </style>
 <button class="back">
     Back
@@ -56,3 +77,7 @@
 
 <button class="stretch">Stretch</button> 
 <button class="shadow">Shadow</button>
+
+<button class="one">One</button>
+<button class="two">Two</button>
+<button class="three">Three</button>
