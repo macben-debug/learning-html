@@ -1,0 +1,226 @@
+button{
+     cursor: pointer;
+     margin-right:8px;
+     vertical-align: top;
+    }
+.subscribe-btn{
+    background-color: rgb(200,0,0);
+    color:white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .subscribe-btn:hover{
+    opacity: 0.7;
+  }
+  .subscribe-btn:active{
+    opacity: 0.3;
+  }
+  .join-btn{
+    width: 60px;
+    border-width: 1px;
+    border-style:solid;
+    background-color: white;
+    color: rgb(63, 107, 189);
+    border-color: rgb(74, 120, 206);
+    border-radius: 2px;
+    transition: background-color 0.15s,
+    color 0.15s;
+     padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .join-btn:hover{
+    background-color:rgb(63, 107, 189) ;
+    color:white ;
+  }
+  
+  .tweet-btn{
+    font-weight: bold;
+    width: 74px;
+    color: white;
+    background-color: rgb(53, 143, 247);
+    border-radius:18px;
+    border:none;
+    font-size:15px;
+    transition: box-shadow 0.15s;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tweet-btn:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  }
+  .request-btn{
+    background-color: black;
+    color:white;
+    border:none;
+    cursor:pointer;
+    transition: opacity 0.25s;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .request-btn:hover{
+    opacity:0.7;
+  }
+  .cart-btn{
+    background-color: rgb(255,216,20);
+    border-radius:20px;
+    cursor: pointer;
+    border:none;
+    transition: background-color 0.25s;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cart-btn:hover{
+    background-color: rgb(224, 189, 15);
+  }
+
+  .sign-btn{
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(46,164,79);
+    border:none;
+    border-radius: 4px;
+    color: white;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sign-btn:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  }
+  .started-btn{
+    background-color: rgb(121,82,179);
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    transition: background-color 0.25s ;
+     padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .started-btn:hover{
+   background-color: rgb(72, 41, 118);
+  }
+  .download-btn{
+    color: rgb(108,117,125);
+    border-color: rgb(108,117,125) ;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    transition: background-color 0.25s, color 0.25s ;
+     padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .download-btn:hover{
+    color: white;
+    background-color:rgb(108,117,125) ;
+  }
+  .company-btn{
+    color: white;
+    background-color: rgb(10,102,194);
+    width: 300px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius:18px;
+    transition: background-color 0.25s ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .company-btn:hover{
+    background-color: rgb(8, 50, 91);
+  }
+  .save-btn{
+    color:rgb(10,102,194);
+    width: 80px;
+    margin-top:10px;
+    background-color: white;
+    border-width:2px;
+    border-color:rgb(10,102,194);
+    font-weight: bold;
+    font-size:large;  
+    border-style: solid;
+    border-radius: 20px;
+    transition: background-color 0.25s, color 0.25s ;
+     padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+  .save-btn:hover{
+  background-color:rgb(10,102,194);
+  color: white;
+
+  }
+  .nike{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .stock{
+    color :rgb(0,118,0);
+    font-size: large;
+    font-weight: bold;
+  }
+   .cart2-btn{
+    background-color: rgb(255,216,20);
+    width:200px;
+    border-radius:20px;
+    cursor: pointer;
+    border:none;
+    transition: background-color 0.25s, opacity 0.25s;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .cart2-btn:hover{
+   background-color: rgb(201, 168, 3);
+
+  }
+  .cart2-btn:active{
+    opacity: 0.6;
+  }
+  .buy-btn{
+    width:200px;
+    border-radius:20px;
+    cursor: pointer;
+    border:none;
+    background-color: rgb(255,164,28);
+    transition:background-color 0.25s, opacity 0.25s;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .buy-btn:hover{
+    background-color: rgb(214, 131, 6);
+  }
+  .buy-btn:active{
+    opacity: 0.6;
+  }
+  .link:hover{
+    color: rgb(212, 93, 13);
+  }
+
+  
