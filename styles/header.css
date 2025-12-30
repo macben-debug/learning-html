@@ -41,7 +41,7 @@
     width: 40px;
     border-radius: 20px;
     border:none;
-    background-color: white;
+    background-color: rgb(245,245,245);
 }
 .voice-search-button-icon{
     height: 24px;
@@ -57,6 +57,7 @@
     border-color: rgb(192, 192, 192);
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
 }
 .search-icon{
     height: 25px;
@@ -67,7 +68,28 @@
     font-size: 16px;
 }
 .right-section{
-    background-color: lightblue;
-    width: 200px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.upload-icon{
+    height: 24px;
+}
+
+.youtube-apps-icon{
+    height: 24px;
+}
+
+.notifications-icon{
+    height: 24px;
+}
+
+.current-user-picture{
+    height: 24px;
+    border-radius: 16px;
 }
 
