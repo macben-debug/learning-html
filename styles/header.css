@@ -44,6 +44,51 @@
     border-style: solid;
     margin-left: -1px;
     margin-right: 10px;
+
+}
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.notifications-icon-container .tooltip,
+.youtube-app-container .tooltip,
+.profile-picture-container .tooltip
+{
+    font-family: Roboto,Arial;
+    position:absolute;
+    background-color: grey;
+    color: white;
+    padding-top:4px;
+    padding-bottom: 4px;
+    padding-left:8px;
+    padding-right: 8px;
+    border-radius:2px;
+    font-size:12px;
+    bottom:-30px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space:nowrap;
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-app-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip,
+.profile-picture-container:hover .tooltip
+{
+    opacity: 1;
+}
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.youtube-app-container,
+.notifications-icon-container,
+.profile-picture-container
+{
+ position:relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .voice-search-button{
      height: 40px;
@@ -54,7 +99,6 @@
 }
 .voice-search-button-icon{
     height: 24px;
-    margin-top: 4px;
 }
 .search-bar{
     flex: 1;
@@ -70,7 +114,6 @@
 }
 .search-icon{
     height: 25px;
-    margin-top: 4px;
 }
 .search-bar::placeholder{
     font-family: Roboto,Arial;
