@@ -26,6 +26,9 @@
     display: grid;
     grid-template-columns: 50px 1fr;
 }
+.video-info-grid a:link{
+    text-decoration: none;
+}
 
 .profile-picture{
     width: 36px;
